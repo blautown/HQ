@@ -1,73 +1,80 @@
 # Map
 
-Founder centre is **JYOps**. Claude Teams is the factory. This repo is the shelf.
+This repo is founder HQ (Jy-ops). Not JRBA. Not the shopfront.
 
-JRBA is a project instance, not the hub.
+DK:0 = no domain knowledge. Two base agents: Document Manager (file hands) and Recordkeeper / invoice manager (plain-English CRM chat + billing). DK:0 cards never name a specialty.
 
-## Founder → specialties → roles → instance
+DK:1 = NDIS. First as plugins clipped onto DK:0. After a deploy proves it, dissect by role into DK:1 agents — whole NDIS-scoped actors, not a plugin drawer.
+
+NDIS is domain knowledge because of legislative governance (NDIS Rules 2018, practice guidelines, operational governance). Do not invent statute text. Do not sand that off when stripping org names.
+
+JRBA is one project. Gym/benchmark. Not the chair. Orange pays rent. Grey is not the chair.
+
+## Founder map
+
+YOU → NDIS domain filter → two DK:0 roles + PBS pack → JRBA → Claude Teams factory.
+
+Shopfront hangs off YOU. Separate. Grey. Not HQ.
+
+PBS pack stays packed. Not approved as a build. No edge to JRBA.
 
 ```mermaid
 flowchart TD
-  founder[Founder / JYOps]
-  factory[Factory: Claude Teams]
-  shelf[Shelf: this repo]
+  classDef you fill:#1B4D3E,stroke:#0F2E25,color:#FFFFFF
+  classDef ndis fill:#C45C26,stroke:#8A3E18,color:#FFFFFF
+  classDef dk0 fill:#2C5F8A,stroke:#1D4060,color:#FFFFFF
+  classDef grey fill:#5C5C5C,stroke:#3D3D3D,color:#FFFFFF
+  classDef factory fill:#6B4C9A,stroke:#4A346C,color:#FFFFFF
 
-  founder --> factory
-  founder --> shelf
+  you["YOU / Jy-ops"]:::you
+  filter["NDIS domain filter"]:::ndis
+  doc["DK:0 Document Manager"]:::dk0
+  rec["DK:0 Recordkeeper / invoice manager"]:::dk0
+  pbs["PBS brain pack"]:::ndis
+  jrba["JRBA project"]:::grey
+  teams["Claude Teams factory"]:::factory
+  shop["Shopfront"]:::grey
 
-  specNdis[Specialty: NDIS auditing]
-  specPbs[Specialty: PBS]
-  shelf --> specNdis
-  shelf --> specPbs
-
-  roleDoc[Role: Document Manager]
-  roleCrm[Role: CRM Billing Manager]
-  shelf --> roleDoc
-  shelf --> roleCrm
-
-  instJrba[Instance: JRBA]
-  specNdis --> instJrba
-  roleDoc --> instJrba
-  roleCrm --> instJrba
-
-  instJrba --> seats[Two Claude seats remain JRBA]
-  instJrba --> run[Another person runs the org]
-  instJrba --> founderAssist[Founder assists backend only]
-
-  specPbs --> util[Utilisation not yet chosen]
+  you --> filter
+  you --> shop
+  filter --> doc
+  filter --> rec
+  filter --> pbs
+  doc --> jrba
+  rec --> jrba
+  jrba --> teams
 ```
 
-PBS has no project instance yet. Do not draw one.
+Orange pays rent. Grey is not the chair.
 
 ## Birth recipe
 
-A shelf asset is born in this order. Binding and the named actor come last.
+Shared seat + scoped process + DK:0 O.G. + connector class + optional DK:1 plugin → establishment bind → named actor → project output (dump).
+
+Shelf gets the DK:0 O.G. now, and DK:1 agents later. Swarm = more seats on a named binding. Not before one real DK:1 exists.
 
 ```mermaid
 flowchart LR
-  seat[Shared seat]
-  process[Scoped process]
-  og[Role O.G.]
-  connector[Connector class]
-  specialty[Specialty]
-  bind[Bind org / login]
-  actor[Named actor]
+  classDef you fill:#1B4D3E,stroke:#0F2E25,color:#FFFFFF
+  classDef ndis fill:#C45C26,stroke:#8A3E18,color:#FFFFFF
+  classDef dk0 fill:#2C5F8A,stroke:#1D4060,color:#FFFFFF
+  classDef grey fill:#5C5C5C,stroke:#3D3D3D,color:#FFFFFF
+  classDef factory fill:#6B4C9A,stroke:#4A346C,color:#FFFFFF
 
-  seat --> process --> og --> connector --> specialty --> bind --> actor
+  seat["Shared seat"]:::factory
+  process["Scoped process"]:::factory
+  og0["DK:0 O.G."]:::dk0
+  conn["Connector class"]:::dk0
+  plug["Optional DK:1 plugin"]:::ndis
+  estab["Establishment bind"]:::you
+  actor["Named actor"]:::factory
+  dump["Project output"]:::grey
+  shelf["Shelf"]:::you
+  later["Later DK:1 agents"]:::ndis
+
+  seat --> process --> og0 --> conn --> plug --> estab --> actor --> dump
+  og0 --> shelf
+  later --> shelf
 ```
 
-| Step | Lives | Notes |
-| --- | --- | --- |
-| Shared seat | Factory | Extra seats only if the project already brings in money. |
-| Scoped process | Factory + O.G. | What the actor is allowed to do. |
-| Role O.G. | Shelf (`roles/`) | Org-stripped rules. |
-| Connector class | Shelf, then bind | e.g. document-store subtree, billing CRM — not a folder ID. |
-| Specialty | Shelf (`specialties/`) | Domain, not a client. |
-| Bind org / login | Instance / factory | Secrets stay out of this repo. |
-| Named actor | Factory | The bound seat on that instance. |
-
-**Shelf** = role O.G. + specialty + connector class (org-stripped).
-
-**Swarm** = more seats on a named binding, not employee CVs.
-
-Work-history files are not part of the recipe.
+Establishment is recon, then bind. Not a domain. Do not use a reserved mermaid id (`end`) for the dump.

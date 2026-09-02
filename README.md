@@ -1,79 +1,57 @@
-# JYOps-hq
+# Jy-ops — founder HQ
 
-Jacob Yaghmoor's founder base of operations in Cursor.
+This repo is founder HQ. Not JRBA. Not the live website.
 
-This repo is **HQ**. It is markdown only: no app, no deploy, no secrets, no client folders.
+Claude Teams: two seats stay JRBA. Extra seat only if that project already makes money.
+Live site: GitHub `jyoperatives/personal-ops` branch `claude/jyops-landing-page-xxkxg5`. Not this repo.
 
-Claude Teams is the **factory** for paying project work. Seats, connectors, and named actors live there. This repo holds the org-stripped shelf: specialties, role operating guides, and the map of how they bind to a project instance.
+Markdown only. No secrets, no emails, no Drive IDs, no participant names, no staff IDs.
 
-Open this folder in Cursor. That is the whole product.
+## DK:0 — no domain knowledge
 
-## Policy
+Two base agents:
 
-- **Founder centre is JYOps**, not any one client project.
-- The **two existing Claude Teams seats remain JRBA seats**.
-- **Additional Claude seats only if that project already brings in money.**
-- A **shelf asset is born** in this order: shared seat + scoped process + role O.G. + connector class + specialty → then bind org/login → named actor.
-- **Shelf** = role O.G. + specialty + connector class (org-stripped).
-- **Swarm** = more seats on a named binding, not employee CVs.
-- **Work-history files are not required.** Do not add them to keep a role or instance "complete."
-- **JRBA is instance one** of the NDIS specialty. It is a live project that still needs refining. Founder effort is not centred there.
+- **Document Manager** — file hands. Retrieve, pre-fill, file, recon, session gate, subtree lock.
+- **Recordkeeper / invoice manager** — plain-English CRM chat + billing/recordkeeping.
 
-Do not put personal emails, Drive folder IDs, participant names, staff IDs, or phone numbers in this repo. Bindings and logins stay in the factory (Claude Teams / the live org), not here.
+DK:0 cards must **never** mention any specialty by name. Not NDIS. Not PBS. Not a client.
 
-## Layout
+## DK:1 — NDIS
 
-| Path | What it is |
-| --- | --- |
-| [`specialties/`](specialties/) | Domain specialties (org-stripped). |
-| [`roles/`](roles/) | Role operating guides (O.G.s). Generic. Reusable. |
-| [`instances/`](instances/) | How a shelf asset binds to one organisation. No secrets. |
-| [`map.md`](map.md) | Founder map and the birth recipe. |
+NDIS is domain knowledge because of legislative governance (NDIS Rules 2018, practice guidelines, operational governance). Do not invent statute text. Do not sand that off when stripping org names.
 
-## How to add a specialty
+First: plugins you clip onto DK:0.
 
-A specialty is a domain Jacob (or JYOps) already works in. It is not a client and not a seat.
+- PBS audit-readiness suite
+- Core-module audit-readiness suite
+- NDIS claims / PRODA / plan-manager
 
-1. Add `specialties/<slug>.md`.
-2. State the domain in one paragraph. Name the kind of work, not a customer.
-3. Point at which role O.G.s and connector *classes* usually travel with it (Drive, a CRM product family, and so on). Do not paste folder IDs or logins.
-4. If utilisation is undecided, say so. Do not invent a rollout.
+After a JRBA (or other) deploy proves it, dissect by role into **DK:1 agents** — whole NDIS-scoped actors. That is the founder pay-off. Not a plugin drawer.
 
-A specialty can have many instances. JRBA does not *own* NDIS auditing; it is one live binding of that specialty.
+## Establishment
 
-## How to add a role
+First launch is recon: gather instance context from the user, then bind. Establishment is not a domain.
 
-A role is a reusable operating guide. It is shelf material: org-stripped.
+## JRBA is not the chair
 
-1. Add `roles/<slug>.md`.
-2. Write the O.G. as rules an actor can follow in *any* org that has that job.
-3. Name the **connector class** (for example: document-store subtree; billing CRM), not an org's folder or tenant.
-4. Separate **operator** from **audit-authority (founder)** when the role can file or mutate.
-5. Leave live trackers, aliases, and org-specific registers out of the O.G. Those belong on the instance, outside this repo if they contain people.
+JRBA is one project/instance. Gym/benchmark. Founder effort is JYOps.
 
-Do not copy a filled JRBA prompt into a new role file. Strip the org first. If it cannot be stripped, it is instance material, not shelf.
+$61k was JRBA billing, not Jacob's wage. Takeaway: less effort / the worker on the shelf.
 
-## How to add an instance
+## PBS brain
 
-An instance binds one or more roles + a specialty to one organisation.
+Unused specialty pack. Eleven modules as an MCP pointed at Claude Code. Could later mint a therapy-assistant role. **Not approved as a build.**
 
-1. Add a short note under [`instances/`](instances/) (or a new `instances/<slug>.md` if the note will not fit the index).
-2. Record: specialty, roles bound, connector *classes*, seat count, who runs the org, what the founder still touches.
-3. No secrets. No emails. No folder IDs. No participant or staff identifiers.
-4. Only bind after the shelf asset exists (seat + process + O.G. + connector class + specialty). The named actor is the last step, and it lives in the factory.
+## Rules
 
-JRBA is already instance one. See [`instances/README.md`](instances/README.md).
+- Work-history files are not required.
+- No swarm design until one real DK:1 exists. Swarm = more seats on a named binding, not CVs.
+- Two seats stay JRBA until a starter is clearly better.
 
-## Shelf vs swarm
+## How to add
 
-| | Shelf | Swarm |
-| --- | --- | --- |
-| What | Role O.G. + specialty + connector class, org-stripped | More seats on a **named binding** |
-| Where | This repo | Claude Teams (factory) |
-| Not | A person's CV or work history | Hiring, or a new specialty |
+1. A **DK:0 agent** — generic O.G., zero specialty names.
+2. A **DK:1 plugin** — clip onto DK:0. NDIS only when the statute/practice is the point.
+3. Later a **DK:1 agent** — whole NDIS-scoped actor, after a deploy proves the plugin.
 
-Do not grow swarm on a project that is not already bringing in money. Do not treat extra seats as a substitute for a missing O.G.
-
-## What this repo is not
-
-Not a client file store. Not a CRM. Not a deploy target. Not a marketing plan. Not a second factory.
+Ordered list: [`TASKS.md`](TASKS.md). Map: [`map.md`](map.md).
