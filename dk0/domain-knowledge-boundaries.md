@@ -55,6 +55,8 @@ A plugin only earns the name if it can answer two questions honestly, at any tim
 
 If a piece of domain knowledge can't pass both tests, it isn't ready to ship as a plugin. Keep refining it before it clips onto anything.
 
+The literal, run-it-yourself version of test 2 is [`drift-check.md`](drift-check.md).
+
 ## Boundary failures to watch for
 
 - A DK:0 card starts describing a specific register, claim type, or compliance checkpoint → that content has drifted from DK:0 into domain knowledge and must move out.

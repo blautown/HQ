@@ -33,6 +33,10 @@ After a JRBA (or other) deploy proves it, dissect by role into **DK:1 agents** â
 
 First launch is recon, then bind. Not a domain. Prompt: [`dk0/establishment.md`](dk0/establishment.md). Paste it into the factory seat. Do not operate until the binding sheet is confirmed and the session gate passes.
 
+## Drift check
+
+Restate scope, diff against the binding sheet, confirm a plugin still dismantles cleanly. Not a monitored system â€” run it on a cadence you choose, or before trusting a "quick fix" a live seat proposed on its own. Prompt: [`dk0/drift-check.md`](dk0/drift-check.md). Needs a binding sheet to diff against; a narrative-only instance note has nothing to check.
+
 ## JRBA is not the chair
 
 JRBA is one project/instance. Gym/benchmark. Founder effort is JYOps.
