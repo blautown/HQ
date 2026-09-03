@@ -16,4 +16,4 @@ No client plans, no participant names, no practitioner roster.
 
 ## Binding
 
-Do not bind an org/login or name an actor until utilisation is chosen and the birth recipe is followed (shared seat + scoped process + role O.G. + connector class + this specialty). See [`../map.md`](../map.md).
+Do not bind an org/login or name an actor until utilisation is chosen and the birth recipe is followed (shared seat + scoped process + DK:0 O.G. + connector class + optional DK:1 plugin for this specialty). See [`../map.md`](../map.md).

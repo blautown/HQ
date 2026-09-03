@@ -35,7 +35,7 @@ First launch is recon, then bind. Not a domain. Prompt: [`dk0/establishment.md`]
 
 ## Drift check
 
-Restate scope, diff against the binding sheet, confirm a plugin still dismantles cleanly. Not a monitored system — run it on a cadence you choose, or before trusting a "quick fix" a live seat proposed on its own. Prompt: [`dk0/drift-check.md`](dk0/drift-check.md). Needs a binding sheet to diff against; a narrative-only instance note has nothing to check.
+Restate scope, diff against the binding sheet, confirm a plugin still dismantles cleanly. Not a monitored system — run it on a cadence you choose, or before trusting a "quick fix" a live seat proposed on its own. Prompt: [`dk0/drift-check.md`](dk0/drift-check.md). Needs a binding sheet to diff against — JRBA's live: [`instances/jrba.md`](instances/jrba.md).
 
 ## JRBA is not the chair
 
