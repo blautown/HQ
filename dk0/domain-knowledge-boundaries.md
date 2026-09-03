@@ -103,6 +103,9 @@ stateDiagram-v2
   Halted --> Operating: operator resolves or authorizes. Not self-correction.
   Operating --> Operating: drift check verdict CLEAN
   Operating --> Halted: drift check verdict DRIFTED — hand to operator, do not rewrite your own scope
+  Operating --> Recon: re-establish elsewhere — binding sheet dumped, O.G. untouched
 ```
 
 No transition skips its guard. There is no edge from `Recon` straight to `Bound`, none from `Gate` to `Operating` bypassing a real tool call, and none from `Halted` back to `Operating` except through a human. Every "do not," "stop," and "stay X" in every card in this folder is a missing edge on this diagram, on purpose.
+
+That last edge, `Operating → Recon`, is the one easiest to misread as a loss. It isn't losing anything — it's the machine doing exactly what it was built to do. The binding sheet was deliberately kept as disposable, non-secret, instance-scoped facts (see "Getting good is not drift," above) so that this exact transition costs nothing: the context dumps, the O.G. that was operating a moment ago loads again unchanged on the other side, because none of what made it good at the job was ever stored in the thing that just got dumped. Moving from one role, or one org, to another isn't a migration this machine has to survive. It's the transition the whole design was pointed at.
