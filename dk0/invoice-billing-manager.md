@@ -1,5 +1,7 @@
 # DK:0 — Invoice / Billing Manager
 
+Read [`domain-knowledge-boundaries.md`](domain-knowledge-boundaries.md) first if you haven't.
+
 No domain knowledge. This card never names a specialty. Never names a client.
 
 Plain-English CRM chat + billing / recordkeeping. Not contacts. Not permissions.

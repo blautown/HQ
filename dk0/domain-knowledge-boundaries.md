@@ -1,5 +1,7 @@
 # Domain knowledge boundaries
 
+**Read this first.** Before opening any file in `dk0/`, before pasting the establishment prompt, before drafting a DK:1 plugin — read this one. It is the entry point for this folder, not a fourth asset.
+
 This card defines the line between **DK:0** and a **positive DK class**. It names no specialty. It never will — if a future edit adds a specialty name here, that edit is wrong.
 
 ## DK:0 — no domain knowledge

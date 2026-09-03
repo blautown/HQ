@@ -1,5 +1,7 @@
 # DK:0 — establishment prompt
 
+Read [`domain-knowledge-boundaries.md`](domain-knowledge-boundaries.md) first if you haven't.
+
 Establishment is not a domain. First launch is **recon**, then **bind**. Do not operate in between.
 
 Paste the prompt below into the factory seat (Claude Teams / the live project). Do not paste secrets into this repo.

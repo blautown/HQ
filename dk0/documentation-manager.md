@@ -1,5 +1,7 @@
 # DK:0 — Documentation Manager
 
+Read [`domain-knowledge-boundaries.md`](domain-knowledge-boundaries.md) first if you haven't.
+
 No domain knowledge. This card never names a specialty. Never names a client.
 
 File hands only: retrieve, pre-fill, file, recon, session gate, subtree lock.

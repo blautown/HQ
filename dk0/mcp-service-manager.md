@@ -1,5 +1,7 @@
 # DK:0 — MCP-connected service manager (placeholder)
 
+Read [`domain-knowledge-boundaries.md`](domain-knowledge-boundaries.md) first if you haven't.
+
 No domain knowledge. This card never names a specialty. Never names a client.
 
 Placeholder until establishment bind. Not a domain. Not a third specialty.
