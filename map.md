@@ -57,6 +57,8 @@ Shared seat + scoped process + DK:0 O.G. + connector class + optional DK:1 plugi
 
 Shelf gets the DK:0 O.G. now, and DK:1 agents later. Swarm = more seats on a named binding. Not before one real DK:1 exists.
 
+The plugin node is scaffolding, not a mini agent. It must dismantle cleanly off the DK:0 asset and pass its own recorded-boundary check, or it isn't ready to clip on. See [`dk0/domain-knowledge-boundaries.md`](dk0/domain-knowledge-boundaries.md).
+
 ```mermaid
 flowchart LR
   classDef you fill:#1B4D3E,stroke:#0F2E25,color:#FFFFFF

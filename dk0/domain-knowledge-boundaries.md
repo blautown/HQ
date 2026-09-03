@@ -40,6 +40,21 @@ Test: if a sentence is only true because of a law, standard, or licensing rule s
 
 **DK:0 = how to do the job in any org. Positive DK = what the job must satisfy because of the field it's done in.**
 
+## What a plugin actually is
+
+The "optional DK:1 plugin" node (see `map.md`) is not a fourth asset and not a mini agent. It is **multi-directional task scaffolding** — the packaged, attachable form of a positive DK class, built to clip onto a DK:0 asset and detach again.
+
+The point of scaffolding instead of a graft: without it you end up managing split assets by hand, with half-finished domain edits held everywhere and no clean way back to plain DK:0. A plugin is how domain knowledge gets added without that mess.
+
+A DK:0 asset with a plugin attached is the **DK:1 agent benchmark** — the live pairing under test, before anyone commits to a whole standalone DK:1 agent.
+
+A plugin only earns the name if it can answer two questions honestly, at any time:
+
+1. **"What if I need to dismantle this?"** Can it be removed cleanly, leaving the DK:0 asset exactly as generic as before? If detaching it breaks the base asset or leaves orphaned assumptions behind, it was never a plugin — it was a graft, and grafts don't go on the shelf.
+2. **"Am I operating within my own recorded boundaries?"** Can the combined agent check its current behaviour against what's actually written in the plugin and the DK:0 card underneath it? A plugin that can't audit itself against its own recorded scope isn't scaffolding — it's domain content bolted on with no way to catch drift.
+
+If a piece of domain knowledge can't pass both tests, it isn't ready to ship as a plugin. Keep refining it before it clips onto anything.
+
 ## Boundary failures to watch for
 
 - A DK:0 card starts describing a specific register, claim type, or compliance checkpoint → that content has drifted from DK:0 into domain knowledge and must move out.
