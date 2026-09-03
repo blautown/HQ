@@ -57,6 +57,14 @@ If a piece of domain knowledge can't pass both tests, it isn't ready to ship as 
 
 The literal, run-it-yourself version of test 2 is [`drift-check.md`](drift-check.md).
 
+## Where the benchmark actually lives
+
+A DK:0 + plugin pairing doesn't get proven on a bound, named-actor seat. It gets proven on the founder's own seat.
+
+**The founder's seat is the asset benchmark library.** It's the one persistent place where DK:0 assets — and later, DK:1 plugins — get built, iterated, and tested, across whatever org happens to be this week's live test case. Org-labelled folders inside that seat are test cases, not instances. A pairing only becomes an instance once it's proven there and establishment binds it to a named actor on a seat dedicated to that org.
+
+This is why a founder's seat can look, from the outside, like it belongs to one org — folder names inside it will often say so, because that org supplied the live test case. It doesn't belong to that org. The seat belongs to the shelf. The org is just today's benchmark.
+
 ## Boundary failures to watch for
 
 - A DK:0 card starts describing a specific register, claim type, or compliance checkpoint → that content has drifted from DK:0 into domain knowledge and must move out.

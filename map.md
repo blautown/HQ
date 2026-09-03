@@ -12,11 +12,13 @@ JRBA is one project. Gym/benchmark. Not the chair. Orange pays rent. Grey is not
 
 ## Founder map
 
-YOU → NDIS domain filter → two bound DK:0 roles + PBS pack → JRBA → Claude Teams factory.
+YOU → founder seat (asset benchmark library) → NDIS domain filter → two bound DK:0 roles + PBS pack → JRBA → Claude Teams factory.
 
-MCP placeholder hangs off YOU. Blue. Not bound. No edge to JRBA until establishment.
+The founder's own seat is where DK:0 assets — and later, DK:1 plugins — actually get built and proven. Org-labelled folders inside it are test cases, not instances. See [`dk0/domain-knowledge-boundaries.md`](dk0/domain-knowledge-boundaries.md#where-the-benchmark-actually-lives).
 
-Shopfront hangs off YOU. Separate. Grey. Not HQ.
+MCP placeholder hangs off the benchmark library. Blue. Not bound. No edge to JRBA until establishment.
+
+Shopfront hangs off YOU directly, not through the benchmark library. Separate. Grey. Not HQ.
 
 PBS pack stays packed. Not approved as a build. No edge to JRBA.
 
@@ -29,6 +31,7 @@ flowchart TD
   classDef factory fill:#6B4C9A,stroke:#4A346C,color:#FFFFFF
 
   you["YOU / Jy-ops"]:::you
+  bench["Founder seat — asset benchmark library"]:::you
   filter["NDIS domain filter"]:::ndis
   doc["DK:0 Documentation Manager"]:::dk0
   rec["DK:0 Invoice / Billing Manager"]:::dk0
@@ -38,9 +41,10 @@ flowchart TD
   teams["Claude Teams factory"]:::factory
   shop["Shopfront"]:::grey
 
-  you --> filter
+  you --> bench
   you --> shop
-  you --> mcp
+  bench --> mcp
+  bench --> filter
   filter --> doc
   filter --> rec
   filter --> pbs
@@ -49,7 +53,7 @@ flowchart TD
   jrba --> teams
 ```
 
-Orange pays rent. Grey is not the chair.
+Orange pays rent. Grey is not the chair. Everything shelf-side runs through the founder's seat before anything gets bound.
 
 ## Birth recipe
 
