@@ -9,12 +9,11 @@ Markdown only. No secrets, no emails, no Drive IDs, no participant names, no sta
 
 ## DK:0 — no domain knowledge
 
-Two base agents:
+Three separate assets. Cards must **never** mention any specialty by name.
 
-- **Document Manager** — file hands. Retrieve, pre-fill, file, recon, session gate, subtree lock.
-- **Recordkeeper / invoice manager** — plain-English CRM chat + billing/recordkeeping.
-
-DK:0 cards must **never** mention any specialty by name. Not NDIS. Not PBS. Not a client.
+- [`dk0/documentation-manager.md`](dk0/documentation-manager.md) — Documentation Manager. File hands: retrieve, pre-fill, file, recon, session gate, subtree lock.
+- [`dk0/invoice-billing-manager.md`](dk0/invoice-billing-manager.md) — Invoice / Billing Manager. Plain-English CRM chat + billing/recordkeeping.
+- [`dk0/mcp-service-manager.md`](dk0/mcp-service-manager.md) — MCP-connected service manager (placeholder). Identity locks at bind. Not a domain.
 
 ## DK:1 — NDIS
 

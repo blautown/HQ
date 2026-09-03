@@ -12,8 +12,8 @@ This specialty is the domain. A live org is an *instance* of it. JRBA is instanc
 
 ## What usually travels with it
 
-- Role: [Document Manager](../roles/document-manager.md) — librarian over the provider's document subtree.
-- Role: [CRM Billing & Recordkeeping Manager](../roles/crm-billing-manager.md) — CRM used as billing and records, not as a contacts directory.
+- Role: [Documentation Manager](../dk0/documentation-manager.md) — librarian over the provider's document subtree.
+- Role: [Invoice / Billing Manager](../dk0/invoice-billing-manager.md) — CRM used as billing and records, not as a contacts directory.
 - Connector classes: document-store subtree; billing CRM. Bind the actual org/login only when the shelf asset is born.
 
 ## Out of scope here

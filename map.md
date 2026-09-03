@@ -2,7 +2,7 @@
 
 This repo is founder HQ (Jy-ops). Not JRBA. Not the shopfront.
 
-DK:0 = no domain knowledge. Two base agents: Document Manager (file hands) and Recordkeeper / invoice manager (plain-English CRM chat + billing). DK:0 cards never name a specialty.
+DK:0 = no domain knowledge. Three separate assets: Documentation Manager (file hands), Invoice / Billing Manager (plain-English CRM chat + billing), MCP-connected service manager (placeholder until bind). DK:0 cards never name a specialty.
 
 DK:1 = NDIS. First as plugins clipped onto DK:0. After a deploy proves it, dissect by role into DK:1 agents — whole NDIS-scoped actors, not a plugin drawer.
 
@@ -12,7 +12,9 @@ JRBA is one project. Gym/benchmark. Not the chair. Orange pays rent. Grey is not
 
 ## Founder map
 
-YOU → NDIS domain filter → two DK:0 roles + PBS pack → JRBA → Claude Teams factory.
+YOU → NDIS domain filter → two bound DK:0 roles + PBS pack → JRBA → Claude Teams factory.
+
+MCP placeholder hangs off YOU. Blue. Not bound. No edge to JRBA until establishment.
 
 Shopfront hangs off YOU. Separate. Grey. Not HQ.
 
@@ -28,8 +30,9 @@ flowchart TD
 
   you["YOU / Jy-ops"]:::you
   filter["NDIS domain filter"]:::ndis
-  doc["DK:0 Document Manager"]:::dk0
-  rec["DK:0 Recordkeeper / invoice manager"]:::dk0
+  doc["DK:0 Documentation Manager"]:::dk0
+  rec["DK:0 Invoice / Billing Manager"]:::dk0
+  mcp["DK:0 MCP service manager"]:::dk0
   pbs["PBS brain pack"]:::ndis
   jrba["JRBA project"]:::grey
   teams["Claude Teams factory"]:::factory
@@ -37,6 +40,7 @@ flowchart TD
 
   you --> filter
   you --> shop
+  you --> mcp
   filter --> doc
   filter --> rec
   filter --> pbs

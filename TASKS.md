@@ -8,8 +8,8 @@ This repo is founder HQ only.
 
 ## Now — write the base (DK:0)
 - [ ] Put domain-knowledge none card in specialties/ — generic boundaries only, ZERO mention of any specialty by name
-- [ ] Write DK:0 Document Manager O.G. (file hands only: retrieve, pre-fill, file, recon, session gate, subtree lock)
-- [ ] Write DK:0 Recordkeeper / invoice manager O.G. (plain-English CRM chat + billing/recordkeeping, no specialty)
+- [x] Write DK:0 Document Manager O.G. (file hands only: retrieve, pre-fill, file, recon, session gate, subtree lock)
+- [x] Write DK:0 Recordkeeper / invoice manager O.G. (plain-English CRM chat + billing/recordkeeping, no specialty)
 - [ ] Write establishment prompt: first launch is recon to gather instance context from the user, then bind
 - [ ] Update map.md: founder → DK:0 agents → DK:1 plugins → project instance (JRBA is one instance, not the chair)
 

@@ -30,8 +30,8 @@ Work-history files are not required to "complete" an instance.
 **Factory:**
 
 - Two Claude seats (these are the existing seats; they remain JRBA seats).
-- [Document Manager](../roles/document-manager.md) — live.
-- [CRM Billing & Recordkeeping Manager](../roles/crm-billing-manager.md) — live.
+- [Documentation Manager](../dk0/documentation-manager.md) — live.
+- [Invoice / Billing Manager](../dk0/invoice-billing-manager.md) — live.
 - Billing automation exists.
 
 **Who runs it:** another person runs the org. The founder still assists on the backend.
