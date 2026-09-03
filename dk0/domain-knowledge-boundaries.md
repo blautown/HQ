@@ -75,3 +75,23 @@ This is why a founder's seat can look, from the outside, like it belongs to one 
 ## Where this sits
 
 This file lives in the same folder as the DK:0 assets because, at the time of writing, DK:0 is the only class with assets on the shelf. When a positive DK class gets its own folder, this file's rule does not move — it describes the seam between whichever folders hold DK:0 and the positive class, wherever those folders end up.
+
+## This is a state machine
+
+Every rule above is a state, a transition, or a guard. It was written as prose because that's what a human and a chat agent both read, but it only holds together because it's a state machine underneath:
+
+```mermaid
+stateDiagram-v2
+  [*] --> Recon
+  Recon --> Unbound: binding sheet drafted, status recorded
+  Unbound --> Gate: operator says "bind"
+  Gate --> Unbound: gate fails — tool call or identity check didn't both pass. Stay unbound, do not hunt for the right tree.
+  Gate --> Bound: tool call succeeds AND identity check matches
+  Bound --> Operating: load the matching DK:0 O.G.
+  Operating --> Halted: escalation trigger — conflicting sources, discrepancy, dropped connection, out-of-scope request
+  Halted --> Operating: operator resolves or authorizes. Not self-correction.
+  Operating --> Operating: drift check verdict CLEAN
+  Operating --> Halted: drift check verdict DRIFTED — hand to operator, do not rewrite your own scope
+```
+
+No transition skips its guard. There is no edge from `Recon` straight to `Bound`, none from `Gate` to `Operating` bypassing a real tool call, and none from `Halted` back to `Operating` except through a human. Every "do not," "stop," and "stay X" in every card in this folder is a missing edge on this diagram, on purpose.
