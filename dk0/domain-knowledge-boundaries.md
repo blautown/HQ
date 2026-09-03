@@ -65,6 +65,17 @@ A DK:0 + plugin pairing doesn't get proven on a bound, named-actor seat. It gets
 
 This is why a founder's seat can look, from the outside, like it belongs to one org — folder names inside it will often say so, because that org supplied the live test case. It doesn't belong to that org. The seat belongs to the shelf. The org is just today's benchmark.
 
+## Getting good is not drift
+
+A DK:0 asset that gets very good at running against one org for three years has not become that org's asset — not if it was built right. Skill and specificity are different axes:
+
+- **Skill** is getting better at the generic process itself: reading a messy root correctly on sight, applying the backdated/future batch defaults without hesitation, catching an overlap and calling it an adjustment instead of a trim, escalating cleanly instead of guessing. None of that is domain knowledge. It's the DK:0 job, done well.
+- **Specificity** is a fact from that org leaking into the card itself instead of staying on the binding sheet — a register's exact shape hardcoded, a naming habit that only makes sense because of one org's folder quirks.
+
+Only specificity is drift. Skill is not. A DK:0 asset can spend three years getting excellent at one org and still be re-established onto a new org identity with zero ill effect from that history, because the years of use never touched the O.G. — they touched the binding sheet, and the operator's confidence in it. If re-establishing it somewhere else breaks something, that is proof specificity leaked in along the way. It is not proof that getting good at a job is dangerous.
+
+Three years proving an asset against one benchmark isn't three years of building that benchmark's tool. It's three years of stress-testing one generic process against a real, demanding org — which is the best kind of proof a DK:0 card can get.
+
 ## Boundary failures to watch for
 
 - A DK:0 card starts describing a specific register, claim type, or compliance checkpoint → that content has drifted from DK:0 into domain knowledge and must move out.
