@@ -29,7 +29,7 @@ After a JRBA (or other) deploy proves it, dissect by role into **DK:1 agents** â
 
 ## Establishment
 
-First launch is recon: gather instance context from the user, then bind. Establishment is not a domain.
+First launch is recon, then bind. Not a domain. Prompt: [`dk0/establishment.md`](dk0/establishment.md). Paste it into the factory seat. Do not operate until the binding sheet is confirmed and the session gate passes.
 
 ## JRBA is not the chair
 
