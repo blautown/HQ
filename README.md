@@ -15,6 +15,8 @@ Three separate assets. Cards must **never** mention any specialty by name.
 - [`dk0/invoice-billing-manager.md`](dk0/invoice-billing-manager.md) — Invoice / Billing Manager. Plain-English CRM chat + billing/recordkeeping.
 - [`dk0/mcp-service-manager.md`](dk0/mcp-service-manager.md) — MCP-connected service manager (placeholder). Identity locks at bind. Not a domain.
 
+Where the DK:0 / DK:1 line actually is: [`dk0/domain-knowledge-boundaries.md`](dk0/domain-knowledge-boundaries.md).
+
 ## DK:1 — NDIS
 
 NDIS is domain knowledge because of legislative governance (NDIS Rules 2018, practice guidelines, operational governance). Do not invent statute text. Do not sand that off when stripping org names.
