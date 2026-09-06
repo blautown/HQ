@@ -112,7 +112,7 @@ Marketing and public delivery are coordinated from HQ but run separately:
 ```text
 HQ offer / claims definition
         ↓
-Grok bots on founder's phone — [`grokbot.md`](grokbot.md)
+Grok bots on founder's phone — [`grokbot.md`](commercial/grokbot.md)
         ↓
 personal-ops + Cloudflare
         ↓

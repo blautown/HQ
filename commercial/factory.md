@@ -1,6 +1,6 @@
 # Claude Teams factory — onboarding & pricing
 
-This is the commercial layer under the "Claude Teams factory" node in [`map.md`](map.md). It sits around the technical establishment protocol ([`dk0/establishment.md`](dk0/establishment.md)), not inside it. Establishment is recon-then-bind for one seat; this is how a client gets to the point of having a seat at all, and what they pay for it.
+This is the commercial layer under the "Claude Teams factory" node in [`map.md`](../map.md). It sits around the technical establishment protocol ([`dk0/establishment.md`](../dk0/establishment.md)), not inside it. Establishment is recon-then-bind for one seat; this is how a client gets to the point of having a seat at all, and what they pay for it.
 
 No secrets, no emails, no client billing details, no real dollar commitments — same rule as the rest of this repo. Pricing below is a starting framework, not a rate card until the founder confirms the numbers.
 
@@ -52,9 +52,9 @@ The target market mostly doesn't know what Claude is beyond the name, and once t
 
 **Permission tier (stops permanent damage):** every client staff seat is added to each project as **"Can view,"** never "Can edit." Viewers can chat inside the project freely but cannot touch custom instructions or the knowledge base. The founder holds the sole "Can edit" / creator role on every bound project. This is a standing rule, not a per-client judgment call — do not grant a client staff member edit access to a bound project.
 
-**Behavioural expectations (stops a bad single conversation):** view-only access does not stop someone from arguing the agent out of scope mid-chat, or pasting data it doesn't need. Every client gets the one-page brief at go-live: [`client-brief.md`](client-brief.md). It is generic and exportable — no client specifics — and is what actually gets handed/pasted to the client, same pattern as `dk0/establishment.md`.
+**Behavioural expectations (stops a bad single conversation):** view-only access does not stop someone from arguing the agent out of scope mid-chat, or pasting data it doesn't need. Every client gets the one-page brief at go-live: [`client-brief.md`](../client-brief.md). It is generic and exportable — no client specifics — and is what actually gets handed/pasted to the client, same pattern as `dk0/establishment.md`.
 
-**Backstop:** [`dk0/drift-check.md`](dk0/drift-check.md) is the periodic catch for anything that slips past both controls — restate scope, diff against the binding sheet, confirm the plugin still dismantles cleanly. Drift check only diagnoses; [`dk0/restore-point.md`](dk0/restore-point.md) is the recovery half — a weekly, verified-clean snapshot taken right after a CLEAN drift check, so a bad edit or drift can be rolled back instead of rebuilt from memory.
+**Backstop:** [`dk0/drift-check.md`](../dk0/drift-check.md) is the periodic catch for anything that slips past both controls — restate scope, diff against the binding sheet, confirm the plugin still dismantles cleanly. Drift check only diagnoses; [`dk0/restore-point.md`](../dk0/restore-point.md) is the recovery half — a weekly, verified-clean snapshot taken right after a CLEAN drift check, so a bad edit or drift can be rolled back instead of rebuilt from memory.
 
 ## Not yet decided
 

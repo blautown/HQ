@@ -1,3 +1,13 @@
+> **Live-client-adjacent file.** This is a real client's binding sheet,
+> currently held here only because no separate Family Operations
+> repository or tenant-instance runtime exists yet. It must contain no
+> credentials, tokens, or unredacted identifiers beyond what is already
+> sanitised below. Do not use this file as a template for a new
+> organisation — see `instances/README.md` for the generic instance
+> concept instead.
+
+---
+
 # Instance: JRBA
 
 Binding sheets for the two bound DK:0 seats. No secrets: no root folder ID, no tenant URL, no staff or participant identifiers. Fields marked `[confirm]` are not invented here — fill them from a real establishment or [drift check](../dk0/drift-check.md) session with the live seat, not from guesswork.

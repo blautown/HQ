@@ -126,7 +126,7 @@ This is the main board and asset shelf. Claude operates in this repository throu
 
 ### 2. Grok campaign bots
 
-Grok bots running on the founder's phone handle the active marketing and advertising campaign, operate the landing page's live support chat, and make/maintain required landing-page edits. See [`grokbot.md`](grokbot.md). They are an execution and notification surface, not the source of truth for JYOps architecture, offer definitions, client bindings, or deployment state.
+Grok bots running on the founder's phone handle the active marketing and advertising campaign, operate the landing page's live support chat, and make/maintain required landing-page edits. See [`grokbot.md`](commercial/grokbot.md). They are an execution and notification surface, not the source of truth for JYOps architecture, offer definitions, client bindings, or deployment state.
 
 Campaign work must point back to the relevant HQ offer and claims definitions. Marketing activity does not by itself make a capability real or a claim backed.
 
@@ -205,10 +205,10 @@ For a bound project, done means the real operator can use the actor in the appro
 - [`TASKS.md`](TASKS.md) — ordered work
 - [`dk0/domain-knowledge-boundaries.md`](dk0/domain-knowledge-boundaries.md) — DK:0 / DK:1 boundary
 - [`dk0/establishment.md`](dk0/establishment.md) — recon then bind
-- [`factory.md`](factory.md) — commercial onboarding and handoff
-- [`offer.md`](offer.md) — shopfront word meanings
-- [`claims.md`](claims.md) — public-claim traceability
-- [`grokbot.md`](grokbot.md) — Grokbot operating boundary
+- [`factory.md`](commercial/factory.md) — commercial onboarding and handoff
+- [`offer.md`](commercial/offer.md) — shopfront word meanings
+- [`claims.md`](commercial/claims.md) — public-claim traceability
+- [`grokbot.md`](commercial/grokbot.md) — Grokbot operating boundary
 - [`instances/`](instances/) — safe project binding notes
 - [`packages/`](packages/) — verified work-package breakdowns, agent prompts, and Linear-representation instructions for new assets
 - [`agents/`](agents/) — one dedicated folder per deployed agent, holding a live-mirror set of its box assets and binding sheet plus a `birth.md` onboarding script; this is the one named location that agent points itself at, not a chat-pasted snapshot

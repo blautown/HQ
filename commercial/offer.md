@@ -8,7 +8,7 @@ Not a marketing rewrite. No pricing. Do not invent statute text.
 
 The split that every term below has to survive:
 
-- **JYOps process outcome** — documentation, records, and billing trail in a state that can survive audit. This is the [NDIS auditing](specialties/ndis-auditing.md) specialty. Readiness and evidence hygiene. Not running the provider.
+- **JYOps process outcome** — documentation, records, and billing trail in a state that can survive audit. This is the [NDIS auditing](../specialties/ndis-auditing.md) specialty. Readiness and evidence hygiene. Not running the provider.
 - **Commission / auditor outcome** — whether a registration is granted, a practice audit is passed, a finding is issued. JYOps does not issue that decision and must not talk as if it does.
 
 If a live line collapses those two, it is not defined. It is a liability.
@@ -51,7 +51,7 @@ Out of this promise:
 - The Commission's overall registration decision.
 - Worker screening, incidents, or practice the provider did not fix when told.
 - Modules that were out of scope on the binding sheet.
-- A client who ignored [`client-brief.md`](client-brief.md), withheld evidence, or changed structure without re-establishment.
+- A client who ignored [`client-brief.md`](../client-brief.md), withheld evidence, or changed structure without re-establishment.
 
 **Money back — current published term:** all JYOps fees paid for the audit-preparation period up to the audit date, refunded within 14 days of the written outcome if the guarantee fails. The claim is made in writing; the published page gives a three-business-day reply expectation.
 
@@ -109,7 +109,7 @@ Covered audits are first registration, mid-term, renewal, and practice audits ag
 - Will not provision their own Claude Team plan.
 - Wants edit access on a bound project.
 - Wants the PBS pack as the product (utilisation not chosen; not approved as a build).
-- Will not accept [`client-brief.md`](client-brief.md) / view-only.
+- Will not accept [`client-brief.md`](../client-brief.md) / view-only.
 - Recon shows in-scope work JYOps does not yet have a shelf asset for, and the founder will not invent one on the call.
 
 Until this list is confirmed, qualification is judgment-only.
@@ -123,7 +123,7 @@ These are on the live page (or in its metadata) and have **no** meaning on this 
 | Live line | Why it is not a term |
 | --- | --- |
 | "Fifty NDIS functions" | No inventory exists on this shelf. A number without a list is puff. Either write the list from real seat capability, or take the number off. |
-| "PBS ops" | [`specialties/pbs.md`](specialties/pbs.md): utilisation not chosen. Not approved as a build. Not a shopfront product. |
+| "PBS ops" | [`specialties/pbs.md`](../specialties/pbs.md): utilisation not chosen. Not approved as a build. Not a shopfront product. |
 
 Do not move these to BACKED by rephrasing. Build the thing, or stop saying it.
 
@@ -133,7 +133,7 @@ Do not move these to BACKED by rephrasing. Build the thing, or stop saying it.
 
 - [`claims.md`](claims.md) — ledger of published sentences. A row may cite this file once the term is defined; BACKED still needs a real run, not just a definition.
 - [`factory.md`](factory.md) — onboarding and pricing. Step 7 (guarantee checkpoint) diffs against **this** card, not against ad copy.
-- [`client-brief.md`](client-brief.md) — what the client is told at go-live. Do not paste guarantee legal text in there until the founder adopts the published terms above.
+- [`client-brief.md`](../client-brief.md) — what the client is told at go-live. Do not paste guarantee legal text in there until the founder adopts the published terms above.
 - Live site — copy may use these words only in the sense defined here. Shopfront stays a separate repo.
 
 Review with `claims.md` whenever factory or live copy changes.

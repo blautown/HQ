@@ -12,7 +12,7 @@ Word meanings live in [`offer.md`](offer.md). This table only traces. A definiti
 | 24/7 expert support | Landing-page live chat handoff + [`offer.md`](offer.md) §3 | **PARTIAL** — live chat and the five-business-day written guarantee-claim response are documented; this is not proof of a staffed call-centre SLA. |
 | "I'll tell you if I can take it — I almost always can" | `factory.md` step 1 + [`offer.md`](offer.md) §6 | **PARTIAL** — discovery is the gate; the decline list remains a founder proposal, not a published operating term. |
 | "One chat. Fifty NDIS functions" | none | **UNPUBLISH** — no inventory on the shelf. See `offer.md` "Not a term yet" |
-| "PBS ops" | [`specialties/pbs.md`](specialties/pbs.md) | **UNPUBLISH** — utilisation not chosen; not approved as a build |
+| "PBS ops" | [`specialties/pbs.md`](../specialties/pbs.md) | **UNPUBLISH** — utilisation not chosen; not approved as a build |
 | "Overheads down, guaranteed" | [`offer.md`](offer.md) §4 | **PARTIAL** — the published unit, baseline, 90-day window, refund rule, and exclusions are recorded; no completed measurement proves the outcome. |
 | "Guaranteed data safety, backup, and compliant handling" | [`offer.md`](offer.md) §5 | **PARTIAL** — published storage, access, backup, restore, incident-notice, and privacy terms are recorded; this ledger does not independently certify compliance or prove a restore run. |
 

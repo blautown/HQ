@@ -1,5 +1,21 @@
 # CLAUDE.md — operating contract for Jy-ops HQ
 
+## Repository Purpose and Non-Negotiable Boundaries
+
+This repository is a reusable-asset factory, not a live operating system.
+
+Before adding or editing any file, confirm the change is one of: an
+identity, operational guideline, domain-knowledge plugin, package
+definition, sanitised instance template, schema, evaluation fixture,
+architecture/decision document, or commercial/legal content in `commercial/`.
+
+Do not add: credentials, tokens, API keys, tenant or database IDs, real
+participant/staff/customer names, live CRM or document contents, raw chat
+transcripts, real pricing tied to a named client, or a duplicated live
+project's data. If a fact is only true because of one real organisation,
+it does not belong in a reusable asset — flag it and ask where it should
+go instead of writing it here.
+
 Read [`workspace.md`](workspace.md) and [`map.md`](map.md) before planning or architecture work. This file turns that charter into working instructions. If it conflicts with either source, the source wins and this file must be updated.
 
 ## Workspace role
@@ -176,7 +192,7 @@ Drift check diagnoses. It does not repair or redefine scope.
 - [`claude-code-proposal.md`](claude-code-proposal.md) — GPT's execution/verification proposal (adopted)
 - [`collaboration.md`](collaboration.md) — Claude Code's response: role split and handoff protocol with GPT
 - [`benchmark.md`](benchmark.md) — deployment benchmark
-- [`grokbot.md`](grokbot.md) — Grokbot landing page, live chat, and Google Ads boundary
+- [`commercial/grokbot.md`](commercial/grokbot.md) — Grokbot landing page, live chat, and Google Ads boundary
 - [`dk0/domain-knowledge-boundaries.md`](dk0/domain-knowledge-boundaries.md) — asset/domain/context boundary
 - [`dk0/establishment.md`](dk0/establishment.md) — recon then bind
 - [`dk0/drift-check.md`](dk0/drift-check.md) — configuration drift check

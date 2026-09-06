@@ -4,6 +4,21 @@ Jy-ops HQ is the founder's reusable asset shelf and operational board for JYOps:
 
 Markdown only. No secrets, no emails, no tenant/Drive IDs, no participant or staff identifiers.
 
+## Repository purpose and boundaries
+
+Jy-ops HQ is the founder's product control plane and asset factory for
+JYOps: identities, operational guidelines, domain-knowledge plugins, and
+packaged deployment templates are defined, reviewed, and versioned here.
+
+HQ is not a live client system, a secrets store, or a runtime. It must
+never contain credentials, tokens, API keys, tenant or database IDs,
+participant/staff/customer identifiers, live CRM or document contents, raw
+chat transcripts, or private restore-point snapshots.
+
+Commercial and legal content (pricing, guarantees, claims, marketing
+governance) lives in `commercial/`, separate from the reusable agent
+architecture in `agents/`, `packages/`, `specialties/`, and `dk0/`.
+
 ## Repo structure
 
 - [`workspace.md`](workspace.md) — what belongs here, what doesn't, and where work ends up
@@ -17,9 +32,10 @@ Markdown only. No secrets, no emails, no tenant/Drive IDs, no participant or sta
 - `agents/` — one dedicated folder per deployed agent: a `birth.md` onboarding script plus live mirrors of that agent's box assets and binding sheet
 - `packages/` — verified work-package breakdowns and agent prompts for building a new asset
 - [`benchmark.md`](benchmark.md) — how a deployment gets benchmarked into a proven DK:1 agent
-- [`grokbot.md`](grokbot.md) — Grok bots' operating boundary (landing page, live chat, ad campaign)
-- [`offer.md`](offer.md) / [`claims.md`](claims.md) — shopfront word meanings and public-claim traceability
-- [`factory.md`](factory.md) / [`client-brief.md`](client-brief.md) — commercial onboarding and handoff
+- `commercial/` — pricing, guarantees, claims, and marketing-governance content, separate from the reusable agent architecture
+- [`commercial/grokbot.md`](commercial/grokbot.md) — Grok bots' operating boundary (landing page, live chat, ad campaign)
+- [`commercial/offer.md`](commercial/offer.md) / [`commercial/claims.md`](commercial/claims.md) — shopfront word meanings and public-claim traceability
+- [`commercial/factory.md`](commercial/factory.md) / [`client-brief.md`](client-brief.md) — commercial onboarding and handoff
 
 ## Asset model
 
