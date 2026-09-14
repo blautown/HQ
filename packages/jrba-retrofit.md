@@ -74,6 +74,10 @@ touching JRBA's systems.
 | Agent home folders | `agents/jrba-documentation-manager/`, `agents/jrba-shiftcare-manager/` (birth.md + identity.md + plugin.md mirrors) | Claude Code | `binding001-jrba` | Done |
 | Binding-sheet confirmation | `binding/documentation-manager.md`, `binding/invoice-billing-manager.md` — named actor, identity check, claims-plugin attachment resolved | **Founder** | JRBA's own live Claude Project | **Done** — both seats BOUND 2026-09-14. ShiftCare Manager initially declined chat-based establishment and required a direct founder configuration edit instead — see `binding001-jrba/decisions/0003-shiftcare-establishment-resistance.md` |
 | Connector classes on record | Same two binding-sheet files | **Founder**, written back by Claude Code once reported | `binding001-jrba` | **Done** |
+| View-only access confirmation | Confirm JRBA operator's project access is view-only, not edit, on both bound projects | **Founder** | JRBA's Claude Team project settings | Pending — not visible to Claude Code from either repo |
+| Client-brief handoff | Filled-in `client-brief.md`, one per seat | Claude Code drafts; **Founder** sends | `binding001-jrba` (draft) → JRBA's operator | Claude Code drafting now |
+| Baseline drift check | `dk0/drift-check.md` run against both seats | Claude Code drafts the per-seat prompt; **Founder** runs it in JRBA's live project | `binding001-jrba/decisions/` (result recorded) | Claude Code drafting now |
+| First restore-point snapshot | `dk0/restore-point.md`, only after a CLEAN drift-check result, then weekly cadence | **Founder** | Founder's private archive — never a repo | Blocked on drift-check CLEAN |
 | Benchmark Lanes 0-2 (config, boundary, synthetic QA) | Per `benchmark.md` | Claude Code can draft synthetic fixtures; founder runs them against the live seats | `binding001-jrba/benchmark-evidence/` | Not started |
 | Benchmark Lanes 3-4 (real supervised task, repeatability) | Per `benchmark.md` | **Founder**, in JRBA's live project | `binding001-jrba/benchmark-evidence/` | Not started |
 
@@ -83,17 +87,17 @@ agent home folders (all done) → founder-run establishment in JRBA's
 live project → write-back to `binding001-jrba/binding/*.md` → benchmark
 lanes.
 
-## Open item carried into the founder's establishment session
+## Open item carried into the founder's establishment session — resolved
 
 Both `agents/jrba-documentation-manager/birth.md` and
-`agents/jrba-shiftcare-manager/birth.md` flag the same unresolved
+`agents/jrba-shiftcare-manager/birth.md` flagged an unresolved
 question: the real bulk-claims/myplace-portal work was observed coming
 out of the Documentation Manager seat in the field, but
 `specialties/ndis-claims-plan-manager.md` was drafted against the
-Invoice/Billing Manager role by subject-matter fit. The founder
-resolves this directly, at establishment, not by assuming role-fit
-placement — the answer gets recorded on whichever binding sheet ends
-up correct.
+Invoice/Billing Manager role by subject-matter fit. **Resolved
+2026-09-14:** the Documentation Manager seat confirmed it does this
+work directly; the plugin attaches there (`plugin-claims-plan-manager.md`
+in that seat's agent folder), not to ShiftCare Manager.
 
 ## Instructions to GPT/Cursor: representing this on Linear
 
