@@ -53,6 +53,19 @@ answered and read back, and the same gate still has to pass before
 calling it BOUND. A live seat's own habits are not the binding sheet
 until they've actually been read back and confirmed by the founder.
 
+A retrofitted seat may correctly decline to adopt a named-actor label
+or accept "bind"/"BOUND" status through chat alone — that is not a
+failure to argue it out of. If the seat's own existing instructions
+never defined the requester (e.g. "the founder") as an authoritative
+role, it has no configured basis to treat a chat message redefining
+its own identity/status as legitimate, and refusing is the correct
+call, not resistance to route around. The fix is not more persuasion:
+the founder edits the seat's own project configuration directly
+(adding the identity, AUTHORITY MODEL, and binding-sheet facts as real
+instructions), and the *next* session gate run against that real
+configuration is what actually confirms BOUND — never a chat
+acknowledgment standing in for it.
+
 All seats:
 - Org display name (what we call it in chat — not a login)
 - Org's day-to-day operator (name/role) vs. the founder — the operator's
