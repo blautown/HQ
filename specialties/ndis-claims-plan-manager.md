@@ -99,6 +99,22 @@ than guessing if it comes up.
   a named provider's registration number, live participant data) has
   been added here without a matching citation.
 
+## Instance note — JRBA (resolved 2026-09-14)
+
+This plugin's default role-fit is `dk0/invoice-billing-manager.md`
+(above). For the JRBA instance specifically, that turned out not to
+match reality: a retrofit-establishment recon session confirmed the
+real myplace bulk-claims work happens through JRBA's Documentation
+Manager seat directly, with no separate seat performing it. JRBA
+therefore binds this plugin to its Documentation Manager identity
+instead (see `binding001-jrba`'s `agents/jrba-documentation-manager/`),
+not its Invoice/Billing Manager seat. This plugin's own content and
+default role-fit don't change because of one instance's binding
+choice — a future instance with a proper separate billing seat would
+still bind it there as drafted. Which identity a plugin actually
+attaches to is always an instance-level binding decision, not
+something the plugin itself fixes.
+
 ## Open question carried from recon
 
 Which live seat this plugin actually attaches to, for the JRBA
