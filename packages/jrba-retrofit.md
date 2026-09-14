@@ -5,6 +5,22 @@ lands. See `TASKS.md`. This file is what GPT/Cursor converts into
 Linear tasks — Linear tickets should link back here rather than
 restating the work, so there's one place the spec actually lives.
 
+**Update, 2026-09-14 (post-JYO-45 partial progress):** Documentation
+Manager is now BOUND (live) — see `binding001-jrba/binding/documentation-manager.md`.
+Two general HQ patches landed on `dk0/establishment.md` as a direct
+result of this retrofit, affecting every future deployment, not just
+JRBA:
+- **Authority model**, stated explicitly: the founder's admin seat is
+  the master technical authority over a seat's configuration/binding/
+  drift/restore; a served org's operator holds authorised, not
+  independent, day-to-day control.
+- **All connectors, not just one**, get identified in recon and proven
+  individually in the Phase 3 gate — a seat can use more than one
+  connector class (JRBA's Documentation Manager uses Drive *and*
+  Gmail). This changes what "done" means for **JYO-46**: record every
+  connector class each seat actually uses on its binding sheet, not
+  just the primary one.
+
 ## What this is, and why it's shaped differently from a normal build
 
 This is not a new asset build like `prospect-outreach-manager.md`. JRBA
