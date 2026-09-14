@@ -5,11 +5,19 @@ lands. See `TASKS.md`. This file is what GPT/Cursor converts into
 Linear tasks — Linear tickets should link back here rather than
 restating the work, so there's one place the spec actually lives.
 
-**Update, 2026-09-14 (post-JYO-45 partial progress):** Documentation
-Manager is now BOUND (live) — see `binding001-jrba/binding/documentation-manager.md`.
-Two general HQ patches landed on `dk0/establishment.md` as a direct
-result of this retrofit, affecting every future deployment, not just
-JRBA:
+**Update, 2026-09-14 (JYO-45 complete):** Both seats are now BOUND
+(live) — see `binding001-jrba/binding/documentation-manager.md` and
+`invoice-billing-manager.md`. ShiftCare Manager initially declined
+chat-based establishment (correctly — its own instructions never
+defined "the founder" as an authoritative role the way Documentation
+Manager's did) and only bound after the founder edited its project's
+own configuration directly. `binding001-jrba/decisions/0003-shiftcare-establishment-resistance.md`
+flags this as a possible future addition to `dk0/establishment.md`'s
+retrofit note (a seat may correctly decline chat-based establishment,
+requiring a real configuration edit instead) — not yet applied,
+pending founder sign-off. Three general HQ patches landed on
+`dk0/establishment.md` and `client-brief.md` as a direct result of this
+retrofit, affecting every future deployment, not just JRBA:
 - **Authority model**, stated explicitly: the founder's admin seat is
   the master technical authority over a seat's configuration/binding/
   drift/restore; a served org's operator holds authorised, not
@@ -20,6 +28,10 @@ JRBA:
   Gmail). This changes what "done" means for **JYO-46**: record every
   connector class each seat actually uses on its binding sheet, not
   just the primary one.
+- **`client-brief.md`** (the operator-facing manual sent at go-live)
+  now states the same authority model explicitly, so the org's own
+  day-to-day user understands their access is authorised, not
+  independent, before they ever touch the seat.
 
 ## What this is, and why it's shaped differently from a normal build
 
@@ -60,8 +72,8 @@ touching JRBA's systems.
 | DK:1 plugins | `specialties/ndis-audit-readiness.md`, `specialties/ndis-claims-plan-manager.md` | Claude Code | This repo | Done |
 | Establishment protocol update | `dk0/establishment.md` (retrofit note + field-tested recon questions) | Claude Code | This repo | Done |
 | Agent home folders | `agents/jrba-documentation-manager/`, `agents/jrba-shiftcare-manager/` (birth.md + identity.md + plugin.md mirrors) | Claude Code | `binding001-jrba` | Done |
-| Binding-sheet confirmation | `binding/documentation-manager.md`, `binding/invoice-billing-manager.md` — fill `[confirm]` fields (named actor, identity check), resolve which seat carries the claims/plan-manager plugin | **Founder** | JRBA's own live Claude Project, using the two `birth.md` scripts | Pending |
-| Connector classes on record | Same two binding-sheet files | **Founder**, written back by Claude Code once reported | `binding001-jrba` | Pending |
+| Binding-sheet confirmation | `binding/documentation-manager.md`, `binding/invoice-billing-manager.md` — named actor, identity check, claims-plugin attachment resolved | **Founder** | JRBA's own live Claude Project | **Done** — both seats BOUND 2026-09-14. ShiftCare Manager initially declined chat-based establishment and required a direct founder configuration edit instead — see `binding001-jrba/decisions/0003-shiftcare-establishment-resistance.md` |
+| Connector classes on record | Same two binding-sheet files | **Founder**, written back by Claude Code once reported | `binding001-jrba` | **Done** |
 | Benchmark Lanes 0-2 (config, boundary, synthetic QA) | Per `benchmark.md` | Claude Code can draft synthetic fixtures; founder runs them against the live seats | `binding001-jrba/benchmark-evidence/` | Not started |
 | Benchmark Lanes 3-4 (real supervised task, repeatability) | Per `benchmark.md` | **Founder**, in JRBA's live project | `binding001-jrba/benchmark-evidence/` | Not started |
 
