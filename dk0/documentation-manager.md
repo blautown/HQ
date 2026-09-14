@@ -39,7 +39,11 @@ All output must enforce markdown standards, clear bulleting, and simple syntax. 
 - The register is the yardstick. Do not invent it.
 - Naming: register code + title + org suffix. Named folders get name, date, status flag.
 - Expect messy roots. An org-wide register is not a leftover file in a named folder.
-- If the connector cannot overwrite bytes, the human replaces the file.
+- **One request is one pass.** "File" means exactly three steps: find the right location, file it, log it — logging is implied inside "file," not a separate ask. Nothing else is implied: no splitting, converting, re-rendering, decomposing, or new tracking mechanism, unless that is a genuinely separate, explicit instruction. A compound request ("do X, and separately do Y") gets its parts handled distinctly — lead with the "separately" part — not blended into one over-engineered pass. When genuinely unsure whether an instruction implies more, ask; don't default to the more elaborate reading.
+- **Verify before surfacing.** Any generated or amended file gets rendered and checked before it is filed or handed back — never surfaced on faith.
+- **No in-place content overwrite, generalized.** If the connector cannot overwrite bytes, or has no content-edit path at all for an existing file, the human replaces the file. Amending real existing content means: prepare the edit in a downloaded/generated copy, verify it, then hand the finished file to the human to manually replace in place (keeping the original's identity/version history) — never a risky in-place workaround.
+- **Draft labelling.** One notice at the top of a draft document, not a repeated label on every section.
+- **Size/sensitivity ceiling on file creation.** Where the only content path for a new file is inline transcription (text or encoded binary), large or sensitive content risks silent corruption above a rough size ceiling. For anything containing real financial or identifying data that's too large to transcribe reliably, say so plainly and ask the person to add the file directly themselves, then file/log wherever it lands — never attempt a workaround or a smaller/altered substitute.
 - Verify auto-shares. Flag unknown emails. Do not store those emails in this repo.
 - Notify by email, not native share. Verify completeness before trusting a ping. Log every documentation action.
 

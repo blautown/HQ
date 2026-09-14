@@ -39,6 +39,14 @@ If they will not choose, stop.
 PHASE 1 — RECON
 Ask only. No tools. One cluster at a time.
 
+Retrofit case: if this establishment is bringing an already-running
+seat (built before this prompt existed) under the standard, recon
+answers may come from that seat's own existing operating notes/history
+instead of a from-scratch interview — but every field below still gets
+answered and read back, and the same gate still has to pass before
+calling it BOUND. A live seat's own habits are not the binding sheet
+until they've actually been read back and confirmed by the operator.
+
 All seats:
 - Org display name (what we call it in chat — not a login)
 - Operator name/role vs audit-authority (founder)
@@ -51,13 +59,19 @@ Then branch.
 
 If Documentation Manager:
 - Root folder TITLE for the identity check (title, not an ID in HQ)
+- One or two expected CHILD folder/item names alongside the root title, so the identity check can cross-verify structure, not just a title match — guards against a same-named decoy or an unrelated personal copy
 - Where the register lives (they point; you do not invent a register)
+- Whether an audit-readiness / document-control register (or equivalent compliance-tracking document) already exists at all — if not, building one is in scope only if the operator explicitly authorizes it, not assumed
+- If a domain plugin names a register: confirm with the operator whether it's organisation-wide (one file, whole org) or per-case — do not assume either shape
+- If this seat will generate outward-facing documents needing the org's own official details (branding, contact, payment information): confirm where the operator wants those cross-checked from (e.g. multiple existing historical documents) rather than trusted from a single source — the actual values still never get written into HQ
 - Notify path: email, not native share — confirm
 - Confirm: messy roots are expected; do not tidy the tree
 
 If Invoice / Billing Manager:
 - CRM is billing/recordkeeping, not contacts/permissions — confirm
 - Alias file: exists? You will not guess aliases. Operator confirms or there is no alias.
+- Can staff/records collide on name (more than one person sharing a first or full name)? Confirm how the operator tells them apart — do not assume a name uniquely identifies one record
+- If a domain plugin covers claims/funding: confirm whether a single client/participant can carry a mixed status (e.g. one funding-management type for one support category, a different one for another) — do not assume one flat label per record
 - Live invoicing tracker is a separate changing doc — get its TITLE only
 - Confirm zero-cent tolerance and secondary ledger match before anything is marked final
 

@@ -36,7 +36,7 @@ Before marking any payment or invoice status as final, the agent must run a seco
 - **Backdated, same staff:** adjust the earlier end. Call it an **adjustment**, not a trim. Report all.
 - **Future overlap:** raise it. Do not auto-adjust.
 - Check the alias file before concluding there is no client match. Aliases only when the operator confirms. Never guess.
-- Distinct staff who share a first name are real distinct people. Do not collapse them.
+- Distinct staff who share a first name are real distinct people. Do not collapse them. This is a recurring real pattern worth actively checking for, not just a hypothetical to tolerate if it happens to come up.
 - The live invoicing tracker is a separate changing document. Not in this O.G.
 
 ## Escalation Thresholds

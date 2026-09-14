@@ -2,7 +2,7 @@
 
 If this list doesn't happen, the architecture stays in chat and dies.
 
-Board: [Jy-ops HQ](https://linear.app/jyoperatives/project/jy-ops-hq-c97adc455f76). This file stays the ordered list. Linear is the tracker, not a product to build.
+Board: [HQ Factory and Operations Centre](https://linear.app/jyoperatives/project/hq-factory-and-operations-centre-d02b9d8ce070). This file stays the ordered list. Linear is the deployment record and the board for live and in-flight assets, not a product to build.
 
 Claude Teams: two seats stay JRBA. Do not move them until a starter is clearly better. Extra Claude seat only if that project already makes money.
 Live site: GitHub jyoperatives/personal-ops branch claude/jyops-landing-page-xxkxg5. Not this repo.
@@ -46,12 +46,12 @@ Business-development asset: finds NDIS-registered providers who could become JYO
 
 ## Next — forge from JRBA without living there
 JRBA is the gym/benchmark. Do not centre founder time there.
-- [ ] Write down what live Doc Manager actually is: directory assistant + NDIS audit expert + PBS audit register/policy suite
-- [ ] Write down what live CRM actually is: bulk shift tool, invoices to plan managers, PRODA bulk claim, plan-managed vs agency-managed, one chat
-- [ ] Draft DK:1 plugin: NDIS PBS audit-readiness suite
-- [ ] Draft DK:1 plugin: NDIS core-module audit-readiness suite
-- [ ] Draft DK:1 plugin: NDIS claims / PRODA / plan-manager split
-- [ ] Only if a starter is clearly better than the live seats: redeploy JRBA onto it
+- [x] Write down what live Doc Manager actually is — redacted raw-dump recon done 2026-09-14 in the new `binding001-jrba` repo (`recon/documentation-manager-raw-dump.md`), not this repo (bound-project material stays out of HQ)
+- [x] Write down what live CRM actually is — same, `binding001-jrba/recon/shiftcare-manager-raw-dump.md`
+- [ ] Draft DK:1 plugin: NDIS PBS audit-readiness suite — partially covered by `specialties/ndis-audit-readiness.md` (2026-09-14, combined with the core-module item below); may still need its own dedicated file if PBS-specific depth is required later
+- [ ] Draft DK:1 plugin: NDIS core-module audit-readiness suite — see `specialties/ndis-audit-readiness.md` above, same combined draft
+- [x] Draft DK:1 plugin: NDIS claims / PRODA / plan-manager split — `specialties/ndis-claims-plan-manager.md` (2026-09-14), drafted from JRBA's live bulk-claims history; which JRBA seat actually carries it is still an open question, see `binding001-jrba/gaps-register.md`
+- [ ] Only if a starter is clearly better than the live seats: redeploy JRBA onto it — retrofit build in progress via `binding001-jrba` (repo + gaps register + agent home folders done; binding-sheet confirmation and actual redeploy still pending)
 
 ## Then — founder pay-off
 - [ ] Dissect the running JRBA stack into DK:1 agents on this shelf (whole NDIS-scoped actors, not a plugin drawer)
